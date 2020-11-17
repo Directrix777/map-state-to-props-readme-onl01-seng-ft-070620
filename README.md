@@ -5,7 +5,7 @@ integrated the method into our __React__ application to update our state.
 Unfortunately, our __React__ application did not re-render in response to
 changes in the state. In this lesson, we'll fix that.
 
-## Use the Provider component from React Redux
+## Use the Provider component from React Redux 
 
 The reason why the application did not re-render previously is because our
 __React__ and __Redux__ libraries could not properly communicate to each other
@@ -46,7 +46,7 @@ ReactDOM.render(
 );
 ```
 
-We just did a few things here:
+We just did a few things here: 
 
 * We imported `Provider` from React Redux
 * We used `Provider` to wrap our React application
